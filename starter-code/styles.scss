@@ -1,0 +1,151 @@
+
+$purple:hsl(274,85%,13%);
+$green: hsl(150,100%,63%);
+$fontPurples: hsl(274,85%,13%);
+$mainBg: hsl(283,100%,99%);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 2406px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+//header
+
+#topPart {
+    background-color: $purple;
+    width: 100%;
+    height: 481px;
+    padding-top: 20px;
+    background-clip: padding-box;
+    margin-bottom: 100px;
+}
+
+.pupleCircle{
+    height: 50px;
+    width: 100%;
+    background-color: $purple;
+    border-radius: 100%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#realHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+#apply {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: $fontPurples;
+    color: white;
+    border: none;
+    border-bottom: 3px solid $green;
+}
+
+//title-button
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.asButton {
+    border-bottom: 3px solid $green;
+}
+
+.greenButton {
+    width: 133px;
+    height: 55px;
+    background-color: $green;
+    color: $fontPurples;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.cellphone {
+    width: 320px;
+    height: 184px;
+    
+}
+
+
+
+
+// Descriptions
+
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+}
+
+.numbers {
+    border: 1px solid $fontPurples;
+    width: 48px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+
+
+// founder & purple box
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.founder {
+    width: 80%;
+    top: 50px;
+    position: relative;
+    z-index: -1;
+}
+
+#purple {
+    background-color: $purple;
+    color: white;
+    width: 100%;
+    height: 375px;
+    margin-bottom: 50px;
+}
+
+
+
